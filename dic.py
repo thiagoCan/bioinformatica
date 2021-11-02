@@ -5,5 +5,5 @@ for i in f:
     i = i.strip()
     codon, am = i.split('  ')
     dic[codon] = am
-
+f.close()
 print(dic)
